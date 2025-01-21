@@ -1,0 +1,108 @@
+/* General Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f9f7f6; /* Light background */
+  color: #333;
+  margin: 0;
+  padding: 0;
+  text-align: center; /* Centers all content by default */
+}
+
+/* Header Section */
+header {
+  background-color: #800000; /* Burgundy */
+  color: white;
+  padding: 20px 10px;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-family: 'Lora', serif; /* Title font */
+  font-size: 40px;
+  margin: 0;
+}
+
+header p {
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+/* About Me Section */
+#about {
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+#about h2 {
+  font-family: 'Lora', serif;
+  font-size: 28px;
+  color: #800000;
+}
+
+blockquote {
+  font-style: italic;
+  font-size: 18px;
+  color: #555;
+  margin-top: 10px;
+}
+
+/* Navigation Section */
+#navigation {
+  margin: 30px auto;
+}
+
+.nav-button {
+  background-color: #800000;
+  color: white;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.nav-button:hover {
+  background-color: #660000;
+}
+
+#search {
+  margin-top: 20px;
+}
+
+#search-bar {
+  padding: 10px;
+  font-size: 16px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#search button {
+  background-color: #800000;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#search button:hover {
+  background-color: #660000;
+}
+
+/* Footer Section */
+footer {
+  margin-top: 40px;
+  padding: 10px;
+  background-color: #800000;
+  color: white;
+  font-size: 14px;
+}
